@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Oui / Non</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	
+</head>
+<body>
+	<div class="page">
+		<h1>STATISTIQUES</h1>
+		<div class="BlocBoutons">
+
+			<div class="boutonOuiScore">
+			<h2 class="score" id="scoreOui">0</h2>
+			<input class="boutonOui" value="OUI" onclick="ouiPlus()" type="button"></input>
+			<input class="boutonMoins" value="-1" onclick="ouiMoins()" type="button"></input>
+			</div>
+
+			<div class="boutonNonScore">
+			<h2 class="score" id="scoreNon">0</h2>
+			<input class="boutonNon" type="button" value="NON" onclick="nonPlus()"></input>
+			<input class="boutonMoins" value="-1" onclick="nonMoins()" type="button"></input>
+			</div>
+		</div>
+	</div>
+</body>
+<script type="text/javascript" src="action.js"></script>
+</html>
