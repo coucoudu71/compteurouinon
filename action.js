@@ -1,3 +1,4 @@
+//SANS STOCKAGE LOCAL
 /*var scoreOui=0
 var scoreNon=0
 function ouiPlus() {
